@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Below is a Tag, or Element-->
+<XmlSamples>
+
+    <!-- E.G. 1 -->
+    <Human>
+        <Name>John Doe</Name>
+    </Human>
+
+    <!-- Tags need not have Data between them.-->
+    <Dog/>
+
+    <!-- E.G. 2 -->
+
+    <!-- The tag below has an attribute named "scientificName", with a value of "Felis Catus" -->
+    <Cat scientificName="Felis Catus"/>
+
+    <!-- E.G. 3 -->
+    <TextView
+        android:text="Hello Universe!"
+        tools:text="Hello World!"/>
+
+</XmlSamples>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- many of theses attributes could of within a single Style definition -->
+    <Button
+        tools:text="button one"
+        android:id="@+id/btn_one"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif_medium"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackground"
+        />
+
+    <Button
+        tools:text="button two"
+        android:id="@+id/btn_two"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif_medium"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackground"
+        />
+
+    <Button
+        tools:text="button three"
+        android:id="@+id/btn_three"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        android:textColor="@color/colorAccent"
+        android:fontFamily="sans-serif_medium"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackground"
+        />
+</LinearLayout>

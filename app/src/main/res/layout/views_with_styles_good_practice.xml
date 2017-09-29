@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!-- This is cleaner and easier to change. -->
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btn_one"
+        tools:text="button one"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btn_two"
+        tools:text="button two"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        />
+
+    <Button
+        style="@style/CustomButtonStyle"
+        android:id="@+id/btn_three"
+        tools:text="button three"
+        android:layout_width="106dp"
+        android:layout_height="56dp"
+        />
+
+</LinearLayout>

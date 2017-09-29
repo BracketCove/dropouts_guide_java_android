@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wiseassblog.dropouts_guide_java_android">
+
+    <!-- this is how you add permissions to an App. In API >= 21, you must also ask permissions at
+    runtime in code -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Remember not to ship Apps to screen sizes you haven't optimized for! -->
+    <supports-screens
+        android:smallScreens="false"
+        android:xlargeScreens="false" />
+
+    <!-- Global Config for entire Application. Activities may override Themes and so forth -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+
+            <!-- The intent-filter tag below specifies that this Activiity should be run first on
+             App launch -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
