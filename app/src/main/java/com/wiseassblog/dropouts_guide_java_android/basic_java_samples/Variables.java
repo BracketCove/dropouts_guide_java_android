@@ -4,7 +4,7 @@ package com.wiseassblog.dropouts_guide_java_android.basic_java_samples;
  * Variables. You may also hear the term "Field" thrown around; which is a synonym.
  *
  * Variables are pieces and/or collections of Data which our Apps require at Runtime to manipulate and read.
- * 
+ *
  * Created by R_KAY on 9/26/2017.
  */
 

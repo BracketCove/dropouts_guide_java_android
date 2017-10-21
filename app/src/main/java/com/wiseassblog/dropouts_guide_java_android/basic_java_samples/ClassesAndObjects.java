@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Classes are arrangements of Variables and Methods which make up a Working Application. It helps
- * to think of and design them in a way similar to real-world Objects.
+ * Classes are arrangements of Variables and Methods which make up a Working Application. It helps to think of and design them in a way similar to real-world Objects.
  * Created by R_KAY on 9/26/2017.
  */
 
@@ -62,11 +61,9 @@ public class ClassesAndObjects {
 
     /*
     E.G. 3
-    At runtime, our Classes can become "Objects", which exist for a given time and can be
-    manipulated via Methods. Object is a short hand word for "an Instance of a Class".
+    At runtime, our Classes can become "Objects", which exist for a given time and can be manipulated via Methods. Object is a short hand word for "an Instance of a Class".
 
-    Below, we are passing an Instance of SimpleHuman in to a method, and adding it to an Instance of
-    ArrayList.
+    Below, we are passing an Instance of SimpleHuman in to a method, and adding it to an Instance of ArrayList.
      */
     private ArrayList<SimpleHuman> listOfHumans = new ArrayList<>();
 

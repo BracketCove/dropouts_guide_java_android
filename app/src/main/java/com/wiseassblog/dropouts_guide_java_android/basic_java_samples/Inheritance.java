@@ -6,11 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import com.wiseassblog.dropouts_guide_java_android.R;
 
 /**
- *For beginners, don't worry too much about Inheritence. Just understand how it works, and that the
- * primary goal is to reduce repetitive code!
+ *For beginners, don't worry too much about Inheritance. Just understand how it works, and that the primary goal is to reduce repetitive code!
  *
- * Consider if I didn't make the Animal super class, but Dog and Human still required the same
- * Variables. That's lots of repetition; which is bad practice!
+ * Consider if I didn't make the Animal super class, but Dog and Human still required the same Variables. That's lots of repetition; which is bad practice!
  * Created by R_KAY on 9/26/2017.
  */
 
